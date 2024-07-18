@@ -1,10 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "IBM Plex Mono";
 
     background-color: rgb(0, 0, 0);
-
+  
 }
 
+a {
+    font-family: IBM Plex Mono;
+}
+
+
+h1,
+h2,
+h3,
+p,
+a,
+div,
+section {
+    letter-spacing: -0.03em
+}
 
 
 .navigation {
@@ -17,21 +35,23 @@ body {
 .developer {
     position: relative;
     background-repeat: no-repeat;
+    width: 1400px;
+    margin: 0 auto;
     background-position: 50%;
     background-size: cover;
-    width: 1400px;
-    height: 765px;
-    margin: 0 auto;
     height: 765px;
     background-image: url(/recources/developer.png);
+    margin-bottom: 150px;
 }
 
 .logo_link {
+    text-align: center;
     font-size: 42.41px;
     font-weight: 700;
     line-height: 55px;
     text-decoration: none;
     border-radius: 100px;
+    padding-left: 13px;
     color: rgb(27, 255, 7);
     background: rgb(0, 0, 0);
 }
@@ -52,7 +72,6 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 23px;
-    letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
 }
 
@@ -77,7 +96,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: -0.03em;
     color: rgb(255, 255, 255);
 }
 
@@ -90,6 +108,363 @@ body {
     font-size: 80px;
     font-weight: 400;
     line-height: 70px;
-    letter-spacing: -0.03em;
     color: rgb(27, 255, 7);
+}
+
+
+
+.fresh_projects {
+    width: 1155px;
+    margin: 0 auto;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 72px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+}
+
+.projects {
+    width: 1150px;
+    height: 1995px;
+    margin: 0 auto;
+}
+
+
+
+.pet_projects {
+    position: relative;
+
+    display: block;
+    height: 550px;
+
+    background-size: cover;
+    box-sizing: border-box;
+    background: url(/recources/realhome.jpeg);
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+}
+
+
+.project_name {
+    position: absolute;
+    left: 50px;
+    bottom: 94px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+
+    color: rgb(255, 255, 255);
+}
+
+.skills {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    color: rgb(255, 255, 255);
+}
+
+.pet_projects:nth-last-child(3) {
+    position: relative;
+
+    display: block;
+    height: 550px;
+
+    background-size: cover;
+    box-sizing: border-box;
+    background: url("/recources/glass.jpeg");
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+}
+
+.pet_projects:nth-last-child(2) {
+    position: relative;
+
+    display: block;
+    height: 550px;
+    background-size: cover;
+    box-sizing: border-box;
+    background: url(/recources/fesiyen.jpeg);
+    background-position: 50%, 50%;
+    background-repeat: no-repeat;
+    border-radius: 32px;
+
+}
+
+.projects_btn {
+    position: absolute;
+    text-align: center;
+    width: 582px;
+    height: 153px;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 39px;
+    cursor: pointer;
+    margin-top: 80px;
+    padding-top: 56px;
+    border-radius: 10px;
+    background-color: rgb(27, 255, 7);
+}
+
+.projects_btn:hover {
+    color: rgb(27, 255, 7);
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(27, 255, 7);
+}
+
+.competencies {
+    width: 1155px;
+    height: 1377px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.my_competencies {
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 72px;
+    margin-top: 150px;
+    margin-bottom: 48px;
+    color: rgb(255, 255, 255);
+}
+
+.technology {
+    width: 651px;
+
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    margin-bottom: 15px;
+    color: rgb(27, 255, 7);
+}
+
+
+.html_technology::before {
+    width: 45px;
+    height: 44px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+    content: '';
+    display: block;
+    background-image: url(/recources/html.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.JS_technology::before {
+    width: 45px;
+    height: 44px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+    content: '';
+    display: block;
+    background-image: url(/recources/js.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.library::before {
+    width: 45px;
+    height: 44px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+    content: '';
+    display: block;
+    background-image: url(/recources/librarypng.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.mobile::before {
+    width: 45px;
+    height: 44px;
+    margin-left: 2px;
+    margin-bottom: 12px;
+    content: '';
+    display: block;
+    background-image: url(/recources/mobile.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+
+.about_technology {
+    font-family: IBM Plex Mono;
+    width: 778px;
+
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -0.03em;
+    margin-bottom: 60px;
+}
+
+
+.range_of_tasks {
+    width: 1155px;
+    height: 1995px;
+    margin: 0 auto;
+}
+
+.tasks {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    width: 403px;
+    height: 92px;
+    margin-bottom: 74px;
+    color: rgb(255, 255, 255);
+}
+
+.development_img {
+    width: 1150px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.development {
+    position: relative;
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+    margin-bottom: 74px;
+    background: rgb(25, 28, 25);
+
+}
+
+.development:last-child {
+    margin-bottom: 150px;
+}
+
+.development_title {
+    position: absolute;
+    width: 1048px;
+    height: 72px;
+    top: 40px;
+    left: 40px;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 72px;
+    color: rgb(27, 255, 7);
+
+}
+
+.development_paragraph {
+    position: absolute;
+    width: 749px;
+    height: 116px;
+    top: 127px;
+    left: 40px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+}
+
+
+ .my_contacts {
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    width: 1400px;
+    height: 717px;
+    background-image: url(/recources/programmer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-x: right;
+    
+    margin: 0 auto;
+    border-radius: 30px;
+    background-color: rgb(25, 28, 25);
+    margin-bottom: 150px;
+
+} 
+
+.contacts {
+    margin-left: 125px;
+    width: 310px;
+height: 308px;
+
+}
+
+.communication {
+    position: absolute;
+    left: 125px;
+    top: 320px;
+    width: 201px;
+height: 60px;
+font-size: 35px;
+font-weight: 400;
+line-height: 60px;
+color: rgb(255, 255, 255);
+}
+
+.social_media {
+    position: absolute;
+    top: 408px;
+    left: 125px;
+    width: 310px;
+height: 60px;
+font-size: 60px;
+font-weight: 400;
+line-height: 60px;
+color: rgb(255, 255, 255);
+}
+
+.social_media:nth-last-child(2) {
+    top: 488px;
+}
+
+.social_media:nth-last-child(1) {
+    top: 568px;
+}
+
+.social_media:hover {
+    cursor: pointer;
+    color: rgb(27, 255, 7);
+}
+
+footer {
+    position: relative;
+    width: 1400px;
+height: 289px;
+margin: 0 auto;
+border-radius: 30px;
+background-color: rgb(255, 255, 255);
+}
+
+.portfolio_site {
+    position: absolute;
+width: 621px;
+height: 30px;
+top: 76px;
+left: 125px;
+font-size: 22px;
+font-weight: 400;
+line-height: 30px;
+color: rgb(0, 0, 0);
+}
+
+.footer_p {
+    position: absolute;
+width: 280px;
+height: 27px;
+top: 172px;
+left: 125px;
+font-size: 20px;
+font-weight: 400;
+line-height: 27px;
+opacity: 0.5;
+color: rgb(0, 0, 0);
 }
