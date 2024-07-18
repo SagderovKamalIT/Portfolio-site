@@ -216,7 +216,7 @@ section {
     width: 1155px;
     height: 1377px;
     margin: 0 auto;
-    padding-bottom: 150px;
+    margin-bottom: 150px;
 }
 
 .my_competencies {
@@ -297,13 +297,72 @@ section {
     font-family: IBM Plex Mono;
     width: 778px;
 
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    letter-spacing: -0.03em;
+    margin-bottom: 60px;
+}
+
+
+.range_of_tasks {
+    width: 1155px;
+    height: 1995px;
+    margin: 0 auto;
+}
+
+.tasks {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 46px;
+    width: 403px;
+    height: 92px;
+    margin-bottom: 74px;
+    color: rgb(255, 255, 255);
+}
+
+.development_img {
+    width: 1150px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.development {
+    position: relative;
+    width: 1150px;
+    height: 283px;
+    border-radius: 30px;
+    margin-bottom: 74px;
+    background: rgb(25, 28, 25);
+    
+}
+
+.development:last-child {
+    margin-bottom: 150px;
+}
+
+.development_title {
+    position: absolute;
+    width: 1048px;
+height: 72px;
+top: 40px;
+left: 40px;
+font-size: 55px;
+font-weight: 400;
+line-height: 72px;
+color: rgb(27, 255, 7);
+
+}
+
+.development_paragraph {
+    position: absolute;
+    width: 749px;
+height: 116px;
+top: 127px;
+left: 40px;
 font-size: 22px;
 font-weight: 400;
 line-height: 29px;
 color: rgb(255, 255, 255);
-letter-spacing: -0.03em;
-margin-bottom: 60px;
 }
-
-
-
