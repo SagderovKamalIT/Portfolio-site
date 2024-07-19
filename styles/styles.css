@@ -40,7 +40,7 @@ section {
     background-position: 50%;
     background-size: cover;
     height: 765px;
-    background-image: url(/recources/developer.png);
+    background-image: url("../recources/developer.png");
     margin-bottom: 150px;
 }
 
@@ -139,7 +139,7 @@ section {
 
     background-size: cover;
     box-sizing: border-box;
-    background: url(/recources/realhome.jpeg);
+    background: url("../recources/realhome.jpeg");
     background-position: 50%, 50%;
     background-repeat: no-repeat;
     border-radius: 32px;
@@ -175,7 +175,7 @@ section {
 
     background-size: cover;
     box-sizing: border-box;
-    background: url("/recources/glass.jpeg");
+    background: url("../recources/glass.jpeg");
     background-position: 50%, 50%;
     background-repeat: no-repeat;
     border-radius: 32px;
@@ -188,7 +188,7 @@ section {
     height: 550px;
     background-size: cover;
     box-sizing: border-box;
-    background: url(/recources/fesiyen.jpeg);
+    background: url("../recources/fesiyen.jpeg");
     background-position: 50%, 50%;
     background-repeat: no-repeat;
     border-radius: 32px;
@@ -250,7 +250,7 @@ section {
     margin-bottom: 12px;
     content: '';
     display: block;
-    background-image: url(/recources/html.png);
+    background-image: url("../recources/html.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -263,7 +263,7 @@ section {
     margin-bottom: 12px;
     content: '';
     display: block;
-    background-image: url(/recources/js.png);
+    background-image: url("../recources/js.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -276,7 +276,7 @@ section {
     margin-bottom: 12px;
     content: '';
     display: block;
-    background-image: url(/recources/librarypng.png);
+    background-image: url("../recources/librarypng.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -289,7 +289,7 @@ section {
     margin-bottom: 12px;
     content: '';
     display: block;
-    background-image: url(/recources/mobile.png);
+    background-image: url("../recources/mobile.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -378,7 +378,7 @@ section {
     position: relative;
     width: 1400px;
     height: 717px;
-    background-image: url(/recources/programmer.png);
+    background-image: url("../recources/programmer.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
