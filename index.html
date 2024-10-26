@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <title>Портфолио Камала Сагдерова</title>
 
@@ -10,47 +9,110 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap"
-        rel="stylesheet" />
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,400;0,700;1,100&display=swap"
+      rel="stylesheet"
+    />
 
-    
     <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+
+  <body >
+    <header class="header">
+      <div class="container">
+        
+        <div class="nav__container">
+            
+            <a class="logo" href="/"> SAGDEROV </a>
+
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li>
+                  <a href="#portfolio" class="header__nav-link" href="/"
+                    >портфолио</a>
+                </li>
+                <li>
+                  <a href="#competencies" class="header__nav-link" href="/">компетенции</a>
+                </li>
+                <li>
+                  <a href="#services" class="header__nav-link" href="/">услуги</a>
+                </li>
+                <li>
+                  <a href="#contacts" class="header__nav-link" href="/">контакты</a>
+                </li>
+              </ul>
+              </nav>
+
+               <div class="burger__btn  js-burger__btn " ></div>
+
+               <div class="burger  js-burger" >
+
+                <div class="burger__content">
+
+                  
+                    <a class="burger__logo" href="/"> SAGDEROV </a>
+
+                    <nav class="burger__nav">
+                      <ul class="burger__nav-list">
+                        <li>
+                          <a href="#portfolio" class="burger__nav-link" href="/"
+                            >портфолио</a>
+                        </li>
+                        <li>
+                          <a href="#competencies" class="burger__nav-link" href="/">компетенции</a>
+                        </li>
+                        <li>
+                          <a href="#services" class="burger__nav-link" href="/">услуги</a>
+                        </li>
+                        <li>
+                          <a href="#contacts" class="burger__nav-link" href="/">контакты</a>
+                        </li>
+                      </ul>
+                      </nav>
+
+                      <ul class="js-burger__content burger__contacts" >
+
+                        <h3 class="burger__contacts-title" >для связи:</h3>
+                          
+
+                        <li>
+                        <a  class="burger__contacts-personal" href="https://t.me/kamal_sagderov">telegram</a>
+        
+                        </li>
+
+                        <li>
+                          <a class="burger__contacts-personal" href="sagderovkamal.it@gmail.com">mail</a>
+                        </li>
+
+                        <li>
+                          <a class="burger__contacts-personal" href="https://www.instagram.com/kamal_sagderov/profilecard/?igsh=eXRvNDJ4ZG5tMXQ3">instagram</a>
+                        </li>
+
+                      </ul>
+               
 
 
 
-</head>
+                </div>
+               </div>
+        </div>
 
-<body>
+        <p class="header__paragraph">
+          Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые
+          повышают престиж компании и позволяют выделиться на фоне конкурентов
+        </p>
+        <h1 class="header__text">
+          Привет, я Камал — фронтенд разарботчик и дизайнер сайтов
+        </h1>
 
+        
+      </div>
+    </header>
 
-    <div class="site">
+    <main>
+      <section class="intro"></section>
+    </main>
 
-
-        <section class="developer">
-
-            <div class="navigation">
-                <a class="logo_link" href="/">
-                    SAGDEROV
-                </a>
-
-                <nav class="nav">
-                    <a href="#portfolio" class="nav_link" href="/">портфолио</a>
-                    <a href="#competencies" class="nav_link" href="/">компетенции</a>
-                    <a href="#services" class="nav_link" href="/">услуги</a>
-                    <a href="#contacts" class="nav_link" href="/">контакты</a>
-                </nav>
-            </div>
-
-            <p class="nav_text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж
-                компании и позволяют выделиться на фоне конкурентов</p>
-
-            <h1 class="about_me">Привет, я Камал — фронтенд разарботчик и дизайнер сайтов</h1>
-        </section>
-
-
-
-
-        <section class="projects" id="portfolio">
+    <!-- <section class="projects" id="portfolio">
             <h2 class="fresh_projects">Самые свежие проекты</h2>
             <div class="pet_projects">
                 <h2 class="project_name">Realhome</h2>
@@ -160,11 +222,9 @@
             <p class="footer_p" >Все права защищены. 2024</p>
 
         </footer>
-    </div>
-
-
-
-
-</body>
-
+    </div> -->
+ 
+    <script src="burger.js"></script>
+    <script src="gallery.js"></script>
+  </body>
 </html>
