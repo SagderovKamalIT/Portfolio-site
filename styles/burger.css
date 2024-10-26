@@ -1,0 +1,118 @@
+.burger__btn {
+    display: none;
+    z-index: 500;
+}
+
+.burger {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.burger__content {
+    display: flex;
+    overflow-y: auto;
+    flex-direction: column;
+    z-index: 100;
+    width: 362px;
+    height: 100%;
+    padding: 73px 0 191px 37px;
+    transition: transform 0.3s linear;
+    background-color: #000;
+}
+
+
+.burger__open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .burger__logo {
+    width: 205px;
+    border: 1px solid #1bff07;
+    
+  }
+
+  .burger__nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    
+  }
+
+  .burger__nav {
+    margin-top: 37px;
+    margin-bottom: 91px;
+  }
+
+  .burger__nav-link {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .burger__contacts {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .burger__contacts-title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #fff;
+    opacity: 0.5;
+  }
+
+  .burger__contacts-personal {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  
+
+  
+
+
+
+
+
+
+@media (max-width: 960px) {
+    .burger__btn {
+        display: block;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 63px;
+        height: 63px;
+        cursor: pointer;
+        background-image: url("../recources/burger.png");
+}
+
+      .burger-btn__open {
+        position: absolute;
+        width: 34px;
+        height: 34px;
+        top: 20px;
+        right: 21px;
+        background-image: url("../recources/burger__btn-open.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }   
+
+}

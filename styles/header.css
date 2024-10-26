@@ -1,0 +1,126 @@
+.header {
+    position: relative;
+    background-image: url("../recources/developer.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 765px;
+    padding: 27px 0 94px 0;
+
+}
+
+
+.logo,
+.burger__logo {
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 55px;
+        text-decoration: none;
+        border-radius: 100px;
+        color: rgb(27, 255, 7);
+        background: rgb(0, 0, 0);
+    }
+
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav-list {
+    display: flex;
+    gap: 50px;
+
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: rgb(255, 255, 255);
+}
+
+.header__nav-link:hover {
+    color: rgb(27, 255, 7);
+}
+
+.header__paragraph {
+    position: absolute;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    width: 430px;
+    top: 334px;
+    color: #fff;;
+    }
+    
+.header__text {
+    position: absolute;
+    width: 919px;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 70px;
+    top: 466px;
+    color: #1bff07;
+    }
+
+@media (max-width: 960px) {
+.header {
+    padding: 32px 0 60px 0;
+    background-image: url("../recources/developer__dekstop.png");
+}
+
+
+.logo {
+font-weight: 700;
+font-size: 42px;
+letter-spacing: -0.11em;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header__paragraph {
+    width: 430px;
+    top: 368px;
+}
+
+.header__text {
+    width: 727px;
+    font-size: 60px;
+    top: 500px;
+}
+
+
+}
+
+@media (max-width: 640px) {
+    .header {
+        padding: 32px 0 60px 0;
+        background-image: url("../recources/developer__mobile.png");
+    }
+   
+
+    .header__paragraph {
+        width: 310px;
+        font-size: 15px;;
+        line-height: 20px;
+        top: 338px;
+    }
+
+    .header__text {
+        width: 100%;
+        font-size: 40px;
+        line-height: 47px;
+        top: 451px;
+    }
+
+}
+
+
+
