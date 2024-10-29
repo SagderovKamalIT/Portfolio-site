@@ -18,84 +18,95 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
 
-  <body >
+  <body>
     <header class="header">
       <div class="container">
-        
         <div class="nav__container">
-            
-            <a class="logo" href="/"> SAGDEROV </a>
+          <a class="logo" href="/"> SAGDEROV </a>
 
-            <nav class="header__nav">
-              <ul class="header__nav-list">
-                <li>
-                  <a href="#portfolio" class="header__nav-link" href="/"
-                    >портфолио</a>
-                </li>
-                <li>
-                  <a href="#competencies" class="header__nav-link" href="/">компетенции</a>
-                </li>
-                <li>
-                  <a href="#services" class="header__nav-link" href="/">услуги</a>
-                </li>
-                <li>
-                  <a href="#contacts" class="header__nav-link" href="/">контакты</a>
-                </li>
-              </ul>
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <li>
+                <a href="#portfolio" class="header__nav-link" href="/"
+                  >портфолио</a
+                >
+              </li>
+              <li>
+                <a href="#competencies" class="header__nav-link" href="/"
+                  >компетенции</a
+                >
+              </li>
+              <li>
+                <a href="#services" class="header__nav-link" href="/">услуги</a>
+              </li>
+              <li>
+                <a href="#contacts" class="header__nav-link" href="/"
+                  >контакты</a
+                >
+              </li>
+            </ul>
+          </nav>
+
+          <div class="burger__btn js-burger__btn"></div>
+
+          <div class="burger js-burger">
+            <div class="burger__content">
+              <a class="burger__logo" href="/"> SAGDEROV </a>
+
+              <nav class="burger__nav">
+                <ul class="burger__nav-list">
+                  <li>
+                    <a href="#portfolio" class="burger__nav-link" href="/"
+                      >портфолио</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#competencies" class="burger__nav-link" href="/"
+                      >компетенции</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#services" class="burger__nav-link" href="/"
+                      >услуги</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contacts" class="burger__nav-link" href="/"
+                      >контакты</a
+                    >
+                  </li>
+                </ul>
               </nav>
 
-               <div class="burger__btn  js-burger__btn " ></div>
+              <ul class="js-burger__content burger__contacts">
+                <h3 class="burger__contacts-title">для связи:</h3>
 
-               <div class="burger  js-burger" >
+                <li>
+                  <a
+                    class="burger__contacts-personal"
+                    href="https://t.me/kamal_sagderov"
+                    >telegram</a
+                  >
+                </li>
 
-                <div class="burger__content">
+                <li>
+                  <a
+                    class="burger__contacts-personal"
+                    href="sagderovkamal.it@gmail.com"
+                    >mail</a
+                  >
+                </li>
 
-                  
-                    <a class="burger__logo" href="/"> SAGDEROV </a>
-
-                    <nav class="burger__nav">
-                      <ul class="burger__nav-list">
-                        <li>
-                          <a href="#portfolio" class="burger__nav-link" href="/"
-                            >портфолио</a>
-                        </li>
-                        <li>
-                          <a href="#competencies" class="burger__nav-link" href="/">компетенции</a>
-                        </li>
-                        <li>
-                          <a href="#services" class="burger__nav-link" href="/">услуги</a>
-                        </li>
-                        <li>
-                          <a href="#contacts" class="burger__nav-link" href="/">контакты</a>
-                        </li>
-                      </ul>
-                      </nav>
-
-                      <ul class="js-burger__content burger__contacts" >
-
-                        <h3 class="burger__contacts-title" >для связи:</h3>
-                          
-
-                        <li>
-                        <a  class="burger__contacts-personal" href="https://t.me/kamal_sagderov">telegram</a>
-        
-                        </li>
-
-                        <li>
-                          <a class="burger__contacts-personal" href="sagderovkamal.it@gmail.com">mail</a>
-                        </li>
-
-                        <li>
-                          <a class="burger__contacts-personal" href="https://www.instagram.com/kamal_sagderov/profilecard/?igsh=eXRvNDJ4ZG5tMXQ3">instagram</a>
-                        </li>
-
-                      </ul>
-               
-
-
-
-                </div>
-               </div>
+                <li>
+                  <a
+                    class="burger__contacts-personal"
+                    href="https://www.instagram.com/kamal_sagderov/profilecard/?igsh=eXRvNDJ4ZG5tMXQ3"
+                    >instagram</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
 
         <p class="header__paragraph">
@@ -105,116 +116,115 @@
         <h1 class="header__text">
           Привет, я Камал — фронтенд разарботчик и дизайнер сайтов
         </h1>
-
-        
       </div>
     </header>
 
     <main>
-        <section class="projects"  id="portfolio">
-
+      <section class="projects" id="portfolio">
         <div class="container">
           <h2 class="projects__title">Самые свежие проекты</h2>
 
-          <ul class="projects__list" >
-            <li class="projects__item" >
-      
-              <div class="projects__block" >
-<picture>
-
-                  <a href="https://sagderovkamalit.github.io/metrica-site" class="projects__link">
-                    <source media="(max-width:500px )" srcset="recources/metrica-site__mobile.png">
-                    <source media="(max-width:1199px )" srcset="recources/metrica-site__dekstop.png">
-                    <img  class="project__image" src="/recources/metrica-site.png" alt="Сайт проекта nothing">
+          <ul class="projects__list">
+            <li class="projects__item">
+              <div class="projects__block">
+                <picture>
+                  <a
+                    href="https://sagderovkamalit.github.io/metrica-site"
+                    class="projects__link"
+                  >
+                    <source
+                      media="(max-width:500px )"
+                      srcset="recources/metrica-site__mobile.png"
+                    />
+                    <source
+                      media="(max-width:1199px )"
+                      srcset="recources/metrica-site__dekstop.png"
+                    />
+                    <img
+                      class="project__image"
+                      src="recources/metrica-site.png"
+                      alt="Сайт проекта nothing"
+                    />
                   </a>
-</picture>
+                </picture>
 
                 <p class="projects__name">дизайн интерьера</p>
 
-                <div class="project__text-block" >
+                <div class="project__text-block">
+                  <h3 class="project__text-title">Метрика</h3>
 
-                  <h3 class="project__text-title" >
-                    Метрика
-                  </h3>
-
-                  <p class="project__text-paragraph" >
-                    верстка, настройка
-                  </p>
-
+                  <p class="project__text-paragraph">верстка, настройка</p>
                 </div>
-
               </div>
             </li>
 
-            <li class="projects__item" >
-              <div class="projects__block" >
-<picture>
-    
-               <a href="#" class="projects__link">
-                 <source media="(max-width:500px )" srcset="recources/nothing__mobile.png">
-                 <source media="(max-width:1199px )" srcset="recources/nothing__dekstop.png">
-                    <img  class="project__image" src="/recources/nothing.png" alt="Сайт проекта nothing">
-               </a>
-</picture>
+            <li class="projects__item">
+              <div class="projects__block">
+                <picture>
+                  <a href="#" class="projects__link">
+                    <source
+                      media="(max-width:500px )"
+                      srcset="recources/nothing__mobile.png"
+                    />
+                    <source
+                      media="(max-width:1199px )"
+                      srcset="recources/nothing__dekstop.png"
+                    />
+                    <img
+                      class="project__image"
+                      src="recources/nothing.png"
+                      alt="Сайт проекта nothing"
+                    />
+                  </a>
+                </picture>
 
                 <p class="projects__name">презентация продукта</p>
 
-                <div class="project__text-block" >
+                <div class="project__text-block">
+                  <h3 class="project__text-title">Nothing</h3>
 
-                  <h3 class="project__text-title" >
-                    Nothing
-                  </h3>
-
-                  <p class="project__text-paragraph" >
-                    разработка интерфейса
-                  </p>
-
+                  <p class="project__text-paragraph">разработка интерфейса</p>
                 </div>
-
               </div>
             </li>
 
-            <li class="projects__item" >
-              <div class="projects__block" >
-<picture>
-
+            <li class="projects__item">
+              <div class="projects__block">
+                <picture>
                   <a href="#" class="projects__links">
-                    <source media="(max-width:500px )" srcset="recources/tortrip__mobile.png">
-                    <source media="(max-width:1199px )" srcset="recources/tortrip__dekstop.png">
-                    <img  class="project__image" src="/recources/tortrip.png" alt="Сайт проекта nothing">
+                    <source
+                      media="(max-width:500px )"
+                      srcset="recources/tortrip__mobile.png"
+                    />
+                    <source
+                      media="(max-width:1199px )"
+                      srcset="recources/tortrip__dekstop.png"
+                    />
+                    <img
+                      class="project__image"
+                      src="recources/tortrip.png"
+                      alt="Сайт проекта nothing"
+                    />
                   </a>
-</picture>
+                </picture>
 
                 <p class="projects__name">заказ путешествий</p>
 
-                <div class="project__text-block" >
+                <div class="project__text-block">
+                  <h3 class="project__text-title">TOPTRIP</h3>
 
-                  <h3 class="project__text-title" >
-                    TOPTRIP
-                  </h3>
-
-                  <p class="project__text-paragraph" >
-                    разработка интерфейса
-                  </p>
-
+                  <p class="project__text-paragraph">разработка интерфейса</p>
                 </div>
-
               </div>
             </li>
           </ul>
 
-          <button class="btn  projects__btn" >
-
-            Смотреть все проекты
-
-          </button>
-
-          </div>
-
-      </section>  
+          <button class="btn projects__btn">Смотреть все проекты</button>
+        </div>
+      </section>
     </main>
 
-        <!-- <section class="competencies"  >
+    <!-- <section class="competencies"  >
 
             <p class="my_competencies" id="competencies" >
                 Мои компетенции
@@ -302,8 +312,8 @@
             <p class="footer_p" >Все права защищены. 2024</p>
 
         </footer>
-    </div> --> 
- 
+    </div> -->
+
     <script src="burger.js"></script>
   </body>
 </html>
