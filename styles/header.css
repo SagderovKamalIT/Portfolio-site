@@ -1,7 +1,7 @@
 .header {
     position: relative;
     background-image: url("../recources/developer.png");
-    max-width: 1400px;
+    width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -91,7 +91,7 @@ letter-spacing: -0.11em;
 }
 
 .header__text {
-    width: 727px;
+    width: 100%;
     font-size: 60px;
     top: 500px;
 }
