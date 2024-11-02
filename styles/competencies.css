@@ -1,0 +1,124 @@
+.competencies {
+  padding: 75px 0;
+}
+
+.competencies__title {
+  font-size: 55px;
+  line-height: 72px;
+  margin-bottom: 80px; 
+  color: rgb(255, 255, 255);
+}
+
+.competencies__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 50px;
+}
+
+.competencies__list-elem {
+  width: calc(50% - 25px);
+}
+
+.competencies__list-elem:last-child:nth-child(2n+1) {
+    width: 75%;
+}
+
+
+
+.competencies__list-title {
+  font-size: 35px;
+  line-height: 46px;
+  margin-bottom: 15px;
+  color: rgb(27, 255, 7);
+}
+
+.competencies__list-title::before {
+   content: '';
+   display: block;
+   width: 45px;
+   height: 44px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin-bottom: 15px;
+}
+
+.competencies__html::before {
+background-image: url("../recources/html.png");
+}
+
+.competencies__js:before {
+    background-image: url("../recources/js.png");
+}
+
+.competencies__frameworks::before {
+    background-image: url("../recources/frameworks.png");
+}
+
+.competencies__adaptive::before {
+    background-image: url("../recources/adaptive.png");
+}
+
+.competencies__list-paragraph {
+  font-size: 22px;
+  line-height: 29px;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 960px) {
+  .competencies__title {
+    font-size: 45px;
+    line-height: 58px;
+    margin-bottom: 60px;
+  }
+
+  .competencies__list {
+    row-gap: 36px;
+    column-gap: 36px;
+  }
+
+  .competencies__list-elem {
+    width: calc(50% - 18px);
+  }
+
+  .competencies__list-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .competencies__list-title::before {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 13px;
+  }
+
+  .competencies__list-paragraph {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+ 
+}
+
+@media (max-width: 640px) {
+  .competencies {
+    padding: 50px 0;
+  }
+
+  .competencies__list-title {
+    margin-bottom: 10px;
+  }
+
+  .competencies__list {
+    flex-direction: column;
+    row-gap: 60px;
+  }
+
+  .competencies__list-elem {
+    width: 100%;
+  }
+
+  .competencies__list-title {
+    margin-bottom: 15px;
+  }
+}

@@ -3,6 +3,7 @@
 @import url(../styles/burger.css);
 @import url(../styles/projects.css);
 @import url(../styles/buttons.css);
+@import url(../styles/competencies.css);
 
 html {
     scroll-behavior: smooth;
@@ -12,7 +13,7 @@ html {
     max-width: 1180px;
     margin: 0 auto;
     padding: 0 15px;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -36,7 +37,12 @@ p,
 a,
 div,
 section {
-    letter-spacing: -0.03em
+    letter-spacing: -0.03em;
+    font-weight: 400;
+}
+
+ol, ul {
+    list-style: none;
 }
 
 
@@ -57,103 +63,6 @@ section {
     }
 }
 
-
-
-
-
-
-.competencies {
-    width: 1155px;
-    height: 1377px;
-    margin: 0 auto;
-    margin-bottom: 150px;
-}
-
-.my_competencies {
-    font-size: 55px;
-    font-weight: 400;
-    line-height: 72px;
-    margin-top: 150px;
-    margin-bottom: 48px;
-    color: rgb(255, 255, 255);
-}
-
-.technology {
-    width: 651px;
-
-    font-size: 35px;
-    font-weight: 400;
-    line-height: 46px;
-    margin-bottom: 15px;
-    color: rgb(27, 255, 7);
-}
-
-
-.html_technology::before {
-    width: 45px;
-    height: 44px;
-    margin-left: 2px;
-    margin-bottom: 12px;
-    content: '';
-    display: block;
-    background-image: url("../recources/html.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.JS_technology::before {
-    width: 45px;
-    height: 44px;
-    margin-left: 2px;
-    margin-bottom: 12px;
-    content: '';
-    display: block;
-    background-image: url("../recources/js.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.library::before {
-    width: 45px;
-    height: 44px;
-    margin-left: 2px;
-    margin-bottom: 12px;
-    content: '';
-    display: block;
-    background-image: url("../recources/librarypng.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-.mobile::before {
-    width: 45px;
-    height: 44px;
-    margin-left: 2px;
-    margin-bottom: 12px;
-    content: '';
-    display: block;
-    background-image: url("../recources/mobile.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-}
-
-
-
-.about_technology {
-    font-family: IBM Plex Mono;
-    width: 778px;
-
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 29px;
-    color: rgb(255, 255, 255);
-    letter-spacing: -0.03em;
-    margin-bottom: 60px;
-}
 
 
 .range_of_tasks {
@@ -229,7 +138,6 @@ section {
     background-repeat: no-repeat;
     background-position: 50%;
     background-position-x: right;
-    
     margin: 0 auto;
     border-radius: 30px;
     background-color: rgb(25, 28, 25);
