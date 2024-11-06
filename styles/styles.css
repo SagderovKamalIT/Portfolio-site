@@ -5,6 +5,7 @@
 @import url(../styles/buttons.css);
 @import url(../styles/competencies.css);
 @import url(../styles/tasks.css);
+@import url(../styles/contacts.css);
 
 html {
     scroll-behavior: smooth;
@@ -64,101 +65,3 @@ ol, ul {
 }
 
 
-
-
-
- .my_contacts {
-    position: relative;
-    box-sizing: border-box;
-    position: relative;
-    width: 1400px;
-    height: 717px;
-    background-image: url("../recources/programmer.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-position-x: right;
-    margin: 0 auto;
-    border-radius: 30px;
-    background-color: rgb(25, 28, 25);
-    margin-bottom: 150px;
-
-} 
-
-.contacts {
-    margin-left: 125px;
-    width: 310px;
-height: 308px;
-
-}
-
-.communication {
-    position: absolute;
-    left: 125px;
-    top: 320px;
-    width: 201px;
-height: 60px;
-font-size: 35px;
-font-weight: 400;
-line-height: 60px;
-color: rgb(255, 255, 255);
-}
-
-.social_media {
-    position: absolute;
-    top: 408px;
-    left: 125px;
-    width: 310px;
-height: 60px;
-font-size: 60px;
-font-weight: 400;
-line-height: 60px;
-color: rgb(255, 255, 255);
-}
-
-.social_media:nth-last-child(2) {
-    top: 488px;
-}
-
-.social_media:nth-last-child(1) {
-    top: 568px;
-}
-
-.social_media:hover {
-    cursor: pointer;
-    color: rgb(27, 255, 7);
-}
-
-footer {
-    position: relative;
-    width: 1400px;
-height: 289px;
-margin: 0 auto;
-border-radius: 30px;
-background-color: rgb(255, 255, 255);
-}
-
-.portfolio_site {
-    position: absolute;
-width: 621px;
-height: 30px;
-top: 76px;
-left: 125px;
-font-size: 22px;
-font-weight: 400;
-line-height: 30px;
-color: rgb(0, 0, 0);
-}
-
-.footer_p {
-    position: absolute;
-width: 280px;
-height: 27px;
-top: 172px;
-left: 125px;
-font-size: 20px;
-font-weight: 400;
-line-height: 27px;
-opacity: 0.5;
-color: rgb(0, 0, 0);
-}
