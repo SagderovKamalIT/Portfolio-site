@@ -6,6 +6,7 @@
 @import url(../styles/competencies.css);
 @import url(../styles/tasks.css);
 @import url(../styles/contacts.css);
+@import url(../styles/footer.css);
 
 html {
     scroll-behavior: smooth;

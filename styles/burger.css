@@ -1,7 +1,7 @@
-.burger__btn {
+ .burger__btn {
     display: none;
     z-index: 500;
-}
+} 
 
 .burger {
     position: fixed;
@@ -17,6 +17,7 @@
     visibility: hidden;
 }
 
+
 .burger__content {
     display: flex;
     overflow-y: auto;
@@ -25,8 +26,9 @@
     width: 362px;
     height: 100%;
     padding: 73px 0 191px 37px;
-    transition: transform 0.3s linear;
     background-color: #000;
+    transition: transform 0.3s linear;
+    transform: translateX(100%);
 }
 
 
@@ -34,6 +36,12 @@
     opacity: 1;
     visibility: visible;
   }
+
+.burger__open
+.burger__content {
+  transform: translateX(0);
+}
+
 
   .burger__logo {
     width: 205px;
@@ -93,7 +101,7 @@
 
 
 @media (max-width: 960px) {
-    .burger__btn {
+     .burger__btn {
         display: block;
         position: relative;
         background-repeat: no-repeat;
@@ -102,7 +110,8 @@
         height: 63px;
         cursor: pointer;
         background-image: url("../recources/burger.png");
-}
+} 
+
 
       .burger-btn__open {
         position: absolute;
